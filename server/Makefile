@@ -1,6 +1,4 @@
-build:
-	install_deps
-	proto_gen
+build: install_deps proto_gen
 	
 install_deps:
 	mix deps.get
