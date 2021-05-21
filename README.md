@@ -9,6 +9,6 @@
 
 - `mix deps.get`
 
-- `protoc --elixir_out=plugins=grpc:./lib app.proto`
+- `protoc --elixir_out=plugins=grpc:./lib ./../protobufs/app.proto`
 
 - `mix grpc.server`
